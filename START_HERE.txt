@@ -1,0 +1,23 @@
+DECMD — NEW REPOSITORY / GITHUB PAGES
+
+1. Extract this ZIP.
+2. Open the extracted DecMD_COMPLETE_NEW_REPO_GITHUB_PAGES folder in Terminal.
+3. On GitHub, create a NEW EMPTY public repository (no README checkbox).
+4. Run:
+
+   git init
+   git branch -M main
+   git add .
+   git commit -m "Launch DecMD pitch website"
+   git remote add origin https://github.com/Julius-Sibulo/DecMD-Pitch.git
+   git push -u origin main
+
+   (Use the same repository name DecMD-Pitch, or update the remote URL.)
+
+5. GitHub repo -> Settings -> Pages -> Source: Deploy from a branch
+   main / (root) -> Save.
+
+6. If repo name is DecMD-Pitch, website URL will be:
+   https://julius-sibulo.github.io/DecMD-Pitch/
+
+IMPORTANT: GitHub Pages runs this static demo, not the original Flask backend.
